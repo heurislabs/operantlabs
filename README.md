@@ -1,36 +1,176 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Teenage Engineering Website Recreation
+
+A faithful recreation of the teenage.engineering website built with modern web technologies.
+
+## Overview
+
+This project recreates the iconic teenage.engineering website, capturing its minimalist design aesthetic, unique navigation structure, and product showcase. The recreation includes:
+
+- **Clean, minimalist design** matching the original's aesthetic
+- **Responsive layout** that works on all device sizes
+- **Interactive video player** for the hero section
+- **Product grid** with categories and filtering
+- **Newsletter subscription** functionality
+- **Multi-page navigation** structure
+
+## Tech Stack
+
+- **Next.js 14** - React framework with App Router
+- **TypeScript** - Type-safe JavaScript
+- **Tailwind CSS** - Utility-first CSS framework
+- **shadcn/ui** - Modern UI component library
+- **Framer Motion** - Animation library
+- **Lucide React** - Icon library
+
+## Features
+
+### Pages Implemented
+- **Homepage** - Hero video, product preview, newsletter signup
+- **Products** - Complete product grid with categories
+- **Audio & Synthesizers** - Category-specific product listing
+- **Store** - E-commerce style product showcase
+- **Newsletter** - Subscription form with success states
+
+### Components
+- **Header** - Multi-column navigation matching original design
+- **Footer** - Country selector and links
+- **VideoPlayer** - Custom Vimeo video integration
+- **ProductGrid** - Responsive product showcase
+
+### Design Elements
+- **Typography** - System fonts matching original aesthetic
+- **Color Scheme** - Light background (#f3f3f3) with dark text (#0f0e12)
+- **Layout** - Grid-based responsive design
+- **Interactions** - Subtle hover effects and transitions
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+- Node.js 18+ 
+- npm or yarn
 
+### Installation
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone <repository-url>
+cd website
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Run the development server:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-## Learn More
+### Build for Production
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run build
+npm start
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+src/
+├── app/                    # Next.js App Router pages
+│   ├── layout.tsx         # Root layout
+│   ├── page.tsx           # Homepage
+│   ├── products/          # Products pages
+│   ├── store/             # Store pages
+│   └── newsletter/        # Newsletter page
+├── components/            # Reusable components
+│   ├── ui/               # shadcn/ui components
+│   ├── Header.tsx        # Site header
+│   ├── Footer.tsx        # Site footer
+│   ├── VideoPlayer.tsx   # Video component
+│   └── ProductGrid.tsx   # Product grid
+└── lib/                  # Utilities
+    └── utils.ts          # Helper functions
+```
 
-## Deploy on Vercel
+## Key Implementation Details
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Navigation Structure
+The header recreates teenage.engineering's unique multi-column navigation with:
+- Brand name split across two lines
+- Categorized navigation sections
+- Shopping cart integration
+- Mobile-responsive hamburger menu
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Video Integration
+Custom video player component using Vimeo embeds with:
+- Background video autoplay
+- Custom play/pause controls
+- Responsive sizing
+- Purple gradient overlay matching original
+
+### Product System
+Flexible product data structure supporting:
+- Multiple categories
+- New/discontinued status badges
+- Grid-based responsive layouts
+- Hover effects and transitions
+
+### Styling Approach
+- CSS custom properties for consistent theming
+- Utility classes for teenage.engineering specific styles
+- Responsive design using Tailwind breakpoints
+- Subtle animations and micro-interactions
+
+## Customization
+
+### Colors
+Update the color scheme in `globals.css`:
+```css
+:root {
+  --background: #f3f3f3;
+  --foreground: #0f0e12;
+  /* ... */
+}
+```
+
+### Products
+Modify product data in component files or create a data layer for dynamic content management.
+
+### Styling
+Extend the design system by adding custom utility classes in the `@layer utilities` section of `globals.css`.
+
+## Performance Considerations
+
+- **Image Optimization** - Using Next.js Image component
+- **Code Splitting** - Automatic with Next.js App Router
+- **Static Generation** - Pages can be statically generated
+- **Component Lazy Loading** - Dynamic imports where appropriate
+
+## Browser Support
+
+- Modern browsers (Chrome, Firefox, Safari, Edge)
+- Mobile browsers (iOS Safari, Chrome Mobile)
+- Progressive enhancement for older browsers
+
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Test thoroughly
+5. Submit a pull request
+
+## License
+
+This project is for educational and demonstration purposes. The original teenage.engineering design and branding remain the property of teenage engineering.
+
+## Acknowledgments
+
+- **teenage engineering** - For their inspiring design and innovative products
+- **Next.js team** - For the excellent React framework
+- **shadcn** - For the beautiful UI component library
+- **Tailwind CSS** - For the utility-first CSS framework
