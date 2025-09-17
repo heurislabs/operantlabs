@@ -18,9 +18,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="overflow-x-hidden">
       <body
-        className={`${inter.variable} font-sans antialiased bg-[#f3f3f3] text-[#0f0e12]`}
+        className={`${inter.variable} font-sans antialiased bg-[#f3f3f3] text-[#0f0e12] overflow-x-hidden`}
       >
         {children}
       </body>

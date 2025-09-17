@@ -14,8 +14,8 @@ export default function Home() {
         <section className="max-w-7xl mx-auto px-4 py-16">
           {/* Logo/25 Section */}
           <div className="text-center mb-16">
-            <div className="text-6xl font-bold mb-8">25</div>
-            <div className="text-sm text-gray-600">the flipped out year</div>
+            <div className="text-6xl font-bold mb-8">Roboteq</div>
+            <div className="text-sm text-gray-600">Australia’s premier source for high-end robotics.</div>
           </div>
 
           {/* Video Section */}
