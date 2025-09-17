@@ -6,6 +6,7 @@ import { Card } from "@/components/ui/card";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import Image from "next/image";
+import { EvervaultCard, Icon } from "@/components/ui/evervault-card";
 
 // Product data structure
 interface ProductDetail {
@@ -301,18 +302,22 @@ export default async function ProductDetailPage({ params }: PageProps) {
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {product.relatedProducts.map((related, index) => (
                   <Link key={index} href={`/products/${related.slug}`} className="group">
-                    <Card className="p-4 hover:shadow-md transition-shadow">
-                      <div className="aspect-square bg-gray-100 rounded mb-3 flex items-center justify-center">
-                        <div className="text-xs text-gray-400 text-center">{related.name}</div>
+                    <div className="border border-black/[0.2] dark:border-white/[0.2] flex flex-col items-start max-w-sm mx-auto p-4 relative h-[30rem]">
+                      <Icon className="absolute h-6 w-6 -top-3 -left-3 dark:text-white text-black" />
+                      <Icon className="absolute h-6 w-6 -bottom-3 -left-3 dark:text-white text-black" />
+                      <Icon className="absolute h-6 w-6 -top-3 -right-3 dark:text-white text-black" />
+                      <Icon className="absolute h-6 w-6 -bottom-3 -right-3 dark:text-white text-black" />
+
+                      <EvervaultCard text={related.name} />
+
+                      <div className="flex items-center justify-between w-full mt-4">
+                        <h3 className="font-medium text-sm group-hover:underline dark:text-white text-black">{related.name}</h3>
+                        <div className="text-sm font-medium dark:text-white text-black">{related.price}</div>
                       </div>
-                      <div className="space-y-1">
-                        <h3 className="font-medium text-sm group-hover:underline">{related.name}</h3>
-                        <div className="text-sm font-medium">{related.price}</div>
-                        <Button size="sm" className="w-full mt-2 rounded-full bg-black text-white hover:bg-gray-800">
-                          add to cart
-                        </Button>
-                      </div>
-                    </Card>
+                      <Button size="sm" className="w-full mt-2 rounded-full bg-black text-white hover:bg-gray-800">
+                        add to cart
+                      </Button>
+                    </div>
                   </Link>
                 ))}
               </div>
@@ -326,18 +331,22 @@ export default async function ProductDetailPage({ params }: PageProps) {
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {product.accessories.map((accessory, index) => (
                   <Link key={index} href={`/products/${accessory.slug}`} className="group">
-                    <Card className="p-4 hover:shadow-md transition-shadow">
-                      <div className="aspect-square bg-gray-100 rounded mb-3 flex items-center justify-center">
-                        <div className="text-xs text-gray-400 text-center">{accessory.name}</div>
+                    <div className="border border-black/[0.2] dark:border-white/[0.2] flex flex-col items-start max-w-sm mx-auto p-4 relative h-[30rem]">
+                      <Icon className="absolute h-6 w-6 -top-3 -left-3 dark:text-white text-black" />
+                      <Icon className="absolute h-6 w-6 -bottom-3 -left-3 dark:text-white text-black" />
+                      <Icon className="absolute h-6 w-6 -top-3 -right-3 dark:text-white text-black" />
+                      <Icon className="absolute h-6 w-6 -bottom-3 -right-3 dark:text-white text-black" />
+
+                      <EvervaultCard text={accessory.name} />
+
+                      <div className="flex items-center justify-between w-full mt-4">
+                        <h3 className="font-medium text-sm group-hover:underline dark:text-white text-black">{accessory.name}</h3>
+                        <div className="text-sm font-medium dark:text-white text-black">{accessory.price}</div>
                       </div>
-                      <div className="space-y-1">
-                        <h3 className="font-medium text-sm group-hover:underline">{accessory.name}</h3>
-                        <div className="text-sm font-medium">{accessory.price}</div>
-                        <Button size="sm" className="w-full mt-2 rounded-full bg-black text-white hover:bg-gray-800">
-                          add to cart
-                        </Button>
-                      </div>
-                    </Card>
+                      <Button size="sm" className="w-full mt-2 rounded-full bg-black text-white hover:bg-gray-800">
+                        add to cart
+                      </Button>
+                    </div>
                   </Link>
                 ))}
               </div>

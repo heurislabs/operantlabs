@@ -3,6 +3,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { VideoPlayer } from "@/components/VideoPlayer";
 import { Button } from "@/components/ui/button";
+import { EvervaultCard, Icon } from "@/components/ui/evervault-card";
 
 export default function Home() {
   return (
@@ -14,8 +15,8 @@ export default function Home() {
         <section className="max-w-7xl mx-auto px-4 py-16">
           {/* Logo/25 Section */}
           <div className="text-center mb-16">
-            <div className="text-6xl font-bold mb-8">Roboteq</div>
-            <div className="text-sm text-gray-600">Australia’s premier source for high-end robotics.</div>
+            <div className="text-6xl font-shilia-thin mb-8">Roboteq</div>
+            <div className="text-sm font-shilia-light text-gray-600">Australia's premier source for high-end robotics.</div>
           </div>
 
           {/* Video Section */}
@@ -31,7 +32,7 @@ export default function Home() {
             <Link href="/store">
               <Button 
                 size="lg" 
-                className="rounded-full bg-black text-white hover:bg-gray-800 px-8 py-6 text-lg"
+                className="rounded-full bg-black text-white hover:bg-gray-800 px-8 py-6 text-lg font-shilia-light"
               >
                 visit store
               </Button>
@@ -42,7 +43,7 @@ export default function Home() {
           <div className="text-center border-t border-gray-200 pt-16">
             <Link 
               href="/newsletter" 
-              className="text-sm text-gray-600 hover:text-black transition-colors"
+              className="text-sm font-shilia-light text-gray-600 hover:text-black transition-colors"
             >
               join our newsletter
             </Link>
@@ -71,15 +72,20 @@ export default function Home() {
                 href={`/products/${product.toLowerCase().replace(/[^a-z0-9]/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '')}`}
                 className="group"
               >
-                <div className="aspect-square bg-white rounded-lg p-4 hover:shadow-md transition-shadow">
-                  <div className="w-full h-full bg-gray-100 rounded-lg flex items-center justify-center">
-                    <div className="text-xs text-gray-400 text-center">
-                      {product}
-                    </div>
-                  </div>
-                </div>
-                <div className="mt-2 text-xs text-center group-hover:underline">
-                  {product}
+                <div className="border border-black/[0.2] dark:border-white/[0.2] flex flex-col items-start max-w-sm mx-auto p-4 relative h-[30rem]">
+                  <Icon className="absolute h-6 w-6 -top-3 -left-3 dark:text-white text-black" />
+                  <Icon className="absolute h-6 w-6 -bottom-3 -left-3 dark:text-white text-black" />
+                  <Icon className="absolute h-6 w-6 -top-3 -right-3 dark:text-white text-black" />
+                  <Icon className="absolute h-6 w-6 -bottom-3 -right-3 dark:text-white text-black" />
+
+                  <EvervaultCard text={product} />
+
+                  <h2 className="dark:text-white text-black mt-4 text-sm font-light">
+                    Explore this innovative product with cutting-edge technology.
+                  </h2>
+                  <p className="text-sm border font-light dark:border-white/[0.2] border-black/[0.2] rounded-full mt-4 text-black dark:text-white px-2 py-0.5">
+                    Learn More
+                  </p>
                 </div>
               </Link>
             ))}
@@ -88,7 +94,7 @@ export default function Home() {
           <div className="text-center">
             <Link 
               href="/products" 
-              className="text-sm text-gray-600 hover:text-black transition-colors border-b border-gray-300 hover:border-black"
+              className="text-sm font-shilia-light text-gray-600 hover:text-black transition-colors border-b border-gray-300 hover:border-black"
             >
               explore all products
             </Link>

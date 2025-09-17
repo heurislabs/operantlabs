@@ -16,9 +16,9 @@ export function Header() {
             <div className="flex-shrink-0 w-32">
               <Link href="/" className="block">
                 <div className="space-y-0 leading-tight">
-                  <div className="font-normal text-gray-200">alphadroid</div>
-                  <div className="font-normal text-gray-200">robotics</div>
-                  <div className="text-xs text-gray-400 mt-1">2025 september</div>
+                  <div className="font-shilia-thin text-gray-200">alphadroid</div>
+                  <div className="font-shilia-thin text-gray-200">robotics</div>
+                  <div className="text-xs font-shilia-light text-gray-400 mt-1">2025 september</div>
                 </div>
               </Link>
             </div>
@@ -29,10 +29,10 @@ export function Header() {
                 <Package size={24} className="text-white" />
               </div>
               <div className="space-y-0 leading-tight">
-                <div className="font-normal">
+                <div className="font-shilia-light">
                   <Link href="/products" className="hover:underline text-gray-200">products</Link>
                 </div>
-                <div className="text-xs text-gray-400 mt-1 space-y-0">
+                <div className="text-xs font-shilia-light text-gray-400 mt-1 space-y-0">
                   <div>
                     <Link href="/products/audio-and-synthesizers" className="hover:underline block text-gray-400">
                       audio & synthesizers
@@ -53,10 +53,10 @@ export function Header() {
                 <Store size={24} className="text-white" />
               </div>
               <div className="space-y-0 leading-tight">
-                <div className="font-normal">
+                <div className="font-shilia-light">
                   <Link href="/store" className="hover:underline text-gray-200">store</Link>
                 </div>
-                <div className="text-xs text-gray-400 mt-1 space-y-0">
+                <div className="text-xs font-shilia-light text-gray-400 mt-1 space-y-0">
                   <div>
                     <Link href="/store" className="hover:underline block text-gray-400">
                       visit store
@@ -77,10 +77,10 @@ export function Header() {
                 <Newspaper size={24} className="text-white" />
               </div>
               <div className="space-y-0 leading-tight">
-                <div className="font-normal">
+                <div className="font-shilia-light">
                   <Link href="/now" className="hover:underline text-gray-200">now</Link>
                 </div>
-                <div className="text-xs text-gray-400 mt-1 space-y-0">
+                <div className="text-xs font-shilia-light text-gray-400 mt-1 space-y-0">
                   <div>
                     <Link href="/newsletter" className="hover:underline block text-gray-400">
                       newsletter
@@ -106,10 +106,10 @@ export function Header() {
                 <HelpCircle size={24} className="text-white" />
               </div>
               <div className="space-y-0 leading-tight">
-                <div className="font-normal">
+                <div className="font-shilia-light">
                   <Link href="/guides" className="hover:underline text-gray-200">support</Link>
                 </div>
-                <div className="text-xs text-gray-400 mt-1 space-y-0">
+                <div className="text-xs font-shilia-light text-gray-400 mt-1 space-y-0">
                   <div>
                     <Link href="/guides" className="hover:underline block text-gray-400">
                       guides
@@ -131,7 +131,7 @@ export function Header() {
 
             {/* Chinese Text */}
             <div className="flex-1 max-w-xs">
-              <div className="text-xs text-gray-400 leading-tight">
+              <div className="text-xs font-shilia-light text-gray-400 leading-tight">
                 Roboteq Robotics 是澳大利亚高端机器人领域的首选高级经销商。我们的使命是把全球领先的机器人产品与本地场景深度结合，以专业工程实力与严格选品标准，交付高品质、强可靠、易集成的解决方案。欢迎选择 Roboteq Robotics，以全新方式开启面向未来的智能自动化体验。
               </div>
             </div>
@@ -139,8 +139,8 @@ export function Header() {
             {/* 25 Pink Text */}
             <div className="flex-shrink-0">
               <div className="text-right">
-                <div className="text-6xl font-black text-[#ff1493] leading-none">25</div>
-                <div className="text-xs font-medium text-[#ff1493] -mt-2">THE FUTURE YEAR</div>
+                <div className="text-6xl font-shilia-thin text-[#ff1493] leading-none">25</div>
+                <div className="text-xs font-shilia-light text-[#ff1493] -mt-2">THE FUTURE YEAR</div>
               </div>
             </div>
           </div>
@@ -170,23 +170,23 @@ export function Header() {
           </SheetTrigger>
           <SheetContent side="right" className="bg-black text-white border-gray-800 w-80">
             <div className="flex flex-col space-y-6 mt-8">
-              <Link href="/products" className="text-lg font-normal text-gray-200 hover:text-white transition-colors">
+              <Link href="/products" className="text-lg font-shilia-light text-gray-200 hover:text-white transition-colors">
                 products
               </Link>
-              <Link href="/store" className="text-lg font-normal text-gray-200 hover:text-white transition-colors">
+              <Link href="/store" className="text-lg font-shilia-light text-gray-200 hover:text-white transition-colors">
                 store
               </Link>
-              <Link href="/now" className="text-lg font-normal text-gray-200 hover:text-white transition-colors">
+              <Link href="/now" className="text-lg font-shilia-light text-gray-200 hover:text-white transition-colors">
                 now
               </Link>
-              <Link href="/guides" className="text-lg font-normal text-gray-200 hover:text-white transition-colors">
+              <Link href="/guides" className="text-lg font-shilia-light text-gray-200 hover:text-white transition-colors">
                 support
               </Link>
               <div className="pt-4 border-t border-gray-800">
-                <Link href="/newsletter" className="text-sm text-gray-400 hover:text-gray-200 block mb-2 transition-colors">
+                <Link href="/newsletter" className="text-sm font-shilia-light text-gray-400 hover:text-gray-200 block mb-2 transition-colors">
                   newsletter
                 </Link>
-                <Link href="/downloads" className="text-sm text-gray-400 hover:text-gray-200 block transition-colors">
+                <Link href="/downloads" className="text-sm font-shilia-light text-gray-400 hover:text-gray-200 block transition-colors">
                   downloads
                 </Link>
               </div>

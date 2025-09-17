@@ -89,7 +89,7 @@ export function Footer() {
             <select
               value={selectedCountry}
               onChange={(e) => setSelectedCountry(e.target.value)}
-              className="bg-transparent border-none text-gray-500 text-sm focus:outline-none cursor-pointer"
+              className="bg-transparent border-none text-gray-500 text-sm font-shilia-light focus:outline-none cursor-pointer"
             >
               {countries.map((country) => (
                 <option key={country.code} value={country.code}>
@@ -100,7 +100,7 @@ export function Footer() {
           </div>
 
           {/* Links */}
-          <div className="col-span-5 flex space-x-4 text-gray-500">
+          <div className="col-span-5 flex space-x-4 text-gray-500 font-shilia-light">
             <Link href="/newsletter" className="hover:text-black transition-colors">
               newsletter
             </Link>
@@ -122,7 +122,7 @@ export function Footer() {
           </div>
 
           {/* Copyright */}
-          <div className="col-span-3 text-right text-gray-500">
+          <div className="col-span-3 text-right text-gray-500 font-shilia-light">
             ©2025 teenage engineering
           </div>
         </div>

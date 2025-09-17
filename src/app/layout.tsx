@@ -1,11 +1,5 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
-
-const inter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin"],
-});
 
 export const metadata: Metadata = {
   title: "teenage engineering",
@@ -20,7 +14,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="overflow-x-hidden">
       <body
-        className={`${inter.variable} font-sans antialiased bg-[#f3f3f3] text-[#0f0e12] overflow-x-hidden`}
+        className="font-shilia-light antialiased bg-[#f3f3f3] text-[#0f0e12] overflow-x-hidden"
       >
         {children}
       </body>

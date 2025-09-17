@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
+import { EvervaultCard, Icon } from "@/components/ui/evervault-card";
 
 interface Product {
   id: string;
@@ -50,27 +51,26 @@ export function ProductGrid() {
             href={`/products/${product.slug}`}
             className="group block"
           >
-            <div className="bg-white rounded-lg p-6 hover:shadow-md transition-shadow">
-              {/* Product Image Placeholder */}
-              <div className="aspect-square bg-gray-100 rounded-lg mb-4 flex items-center justify-center">
-                <div className="text-gray-400 text-sm">
-                  {product.name}
-                </div>
-              </div>
-              
-              {/* Product Info */}
-              <div className="space-y-2">
-                <div className="flex items-center gap-2">
-                  <h3 className="font-medium text-sm group-hover:underline">
-                    {product.name}
-                  </h3>
-                  {product.isNew && (
-                    <Badge variant="secondary" className="text-xs">
-                      new
-                    </Badge>
-                  )}
-                </div>
-                <p className="text-xs text-gray-500">{product.category}</p>
+            <div className="border border-black/[0.2] dark:border-white/[0.2] flex flex-col items-start max-w-sm mx-auto p-4 relative h-[30rem]">
+              <Icon className="absolute h-6 w-6 -top-3 -left-3 dark:text-white text-black" />
+              <Icon className="absolute h-6 w-6 -bottom-3 -left-3 dark:text-white text-black" />
+              <Icon className="absolute h-6 w-6 -top-3 -right-3 dark:text-white text-black" />
+              <Icon className="absolute h-6 w-6 -bottom-3 -right-3 dark:text-white text-black" />
+
+              <EvervaultCard text={product.name} />
+
+              <h2 className="dark:text-white text-black mt-4 text-sm font-light">
+                {product.category}
+              </h2>
+              <div className="flex items-center gap-2 mt-2">
+                {product.isNew && (
+                  <Badge variant="secondary" className="text-xs">
+                    new
+                  </Badge>
+                )}
+                <p className="text-sm border font-light dark:border-white/[0.2] border-black/[0.2] rounded-full text-black dark:text-white px-2 py-0.5">
+                  Explore
+                </p>
               </div>
             </div>
           </Link>
@@ -88,25 +88,24 @@ export function ProductGrid() {
                 href={`/products/${product.slug}`}
                 className="group block opacity-60 hover:opacity-80 transition-opacity"
               >
-                <div className="bg-white rounded-lg p-6">
-                  {/* Product Image Placeholder */}
-                  <div className="aspect-square bg-gray-100 rounded-lg mb-4 flex items-center justify-center">
-                    <div className="text-gray-400 text-sm">
-                      {product.name}
-                    </div>
-                  </div>
-                  
-                  {/* Product Info */}
-                  <div className="space-y-2">
-                    <div className="flex items-center gap-2">
-                      <h3 className="font-medium text-sm group-hover:underline">
-                        {product.name}
-                      </h3>
-                      <Badge variant="outline" className="text-xs">
-                        discontinued
-                      </Badge>
-                    </div>
-                    <p className="text-xs text-gray-500">{product.category}</p>
+                <div className="border border-black/[0.2] dark:border-white/[0.2] flex flex-col items-start max-w-sm mx-auto p-4 relative h-[30rem] opacity-60">
+                  <Icon className="absolute h-6 w-6 -top-3 -left-3 dark:text-white text-black" />
+                  <Icon className="absolute h-6 w-6 -bottom-3 -left-3 dark:text-white text-black" />
+                  <Icon className="absolute h-6 w-6 -top-3 -right-3 dark:text-white text-black" />
+                  <Icon className="absolute h-6 w-6 -bottom-3 -right-3 dark:text-white text-black" />
+
+                  <EvervaultCard text={product.name} />
+
+                  <h2 className="dark:text-white text-black mt-4 text-sm font-light">
+                    {product.category}
+                  </h2>
+                  <div className="flex items-center gap-2 mt-2">
+                    <Badge variant="outline" className="text-xs">
+                      discontinued
+                    </Badge>
+                    <p className="text-sm border font-light dark:border-white/[0.2] border-black/[0.2] rounded-full text-black dark:text-white px-2 py-0.5">
+                      View Details
+                    </p>
                   </div>
                 </div>
               </Link>
