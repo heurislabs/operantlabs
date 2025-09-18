@@ -2,8 +2,6 @@
 
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import { Button } from "@/components/ui/button";
-import { Card } from "@/components/ui/card";
 import { PlaceholdersAndVanishInput } from "@/components/ui/placeholders-and-vanish-input";
 import { DocumentSection } from "@/components/DocumentSection";
 import { useState } from "react";
@@ -39,7 +37,7 @@ export default function SupportPage() {
           <div className="text-center mb-16">
             <h1 className="text-4xl font-bold mb-8">help centre</h1>
             <p className="text-gray-600 mb-8 max-w-2xl mx-auto font-shilia-light">
-              we understand that sometimes you may encounter difficulties or have questions while using our platform, and we're here to assist you every step of the way.
+              we understand that sometimes you may encounter difficulties or have questions while using our platform, and we&apos;re here to assist you every step of the way.
             </p>
 
             {/* Search Bar */}

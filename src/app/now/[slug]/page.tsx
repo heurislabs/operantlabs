@@ -91,7 +91,7 @@ export default function BlogPostPage({ params }: PageProps) {
         return (
           <div key={index} className="my-8 pl-6 border-l-2 border-gray-300">
             <p className="text-gray-700 italic mb-2 leading-relaxed">
-              "{section.text}"
+              &ldquo;{section.text}&rdquo;
             </p>
             {section.speaker && (
               <p className="text-sm text-gray-600 font-medium">
