@@ -10,7 +10,7 @@ export default function SupportPage() {
     <div className="min-h-screen">
       <Header />
       
-      <main className="pt-12 md:pt-32">
+      <main className="pt-16 md:pt-36">
         <section className="max-w-4xl mx-auto px-4 py-16">
           <div className="mb-16">
             <h1 className="text-4xl font-bold mb-8">support</h1>
@@ -35,7 +35,7 @@ export default function SupportPage() {
                 reach out to our technical team for product inquiries, customization requests, and technical support.
               </p>
               <Button asChild className="w-full rounded-full bg-black text-white hover:bg-gray-800">
-                <a href="mailto:support@alphadroidrobotics.com">
+                <a href="mailto:support@operantlabs.com">
                   contact support
                 </a>
               </Button>
@@ -120,7 +120,7 @@ export default function SupportPage() {
                   get instant answers during business hours (monday - friday, 9am - 5pm aest)
                 </p>
                 <Button asChild variant="outline" className="rounded-full border-black text-black hover:bg-black hover:text-white">
-                  <a href="https://support.alphadroidrobotics.com/chat" target="_blank" rel="noopener noreferrer">
+                  <a href="https://support.operantlabs.com/chat" target="_blank" rel="noopener noreferrer">
                     start chat <ExternalLink className="w-4 h-4 ml-2" />
                   </a>
                 </Button>
@@ -135,7 +135,7 @@ export default function SupportPage() {
                   browse our comprehensive documentation, guides, and frequently asked questions
                 </p>
                 <Button asChild variant="outline" className="rounded-full border-black text-black hover:bg-black hover:text-white">
-                  <a href="https://docs.alphadroidrobotics.com" target="_blank" rel="noopener noreferrer">
+                  <a href="https://docs.operantlabs.com" target="_blank" rel="noopener noreferrer">
                     view docs <ExternalLink className="w-4 h-4 ml-2" />
                   </a>
                 </Button>

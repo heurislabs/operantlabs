@@ -8,7 +8,7 @@ export default function NowPage() {
       <Header />
       
       {/* Main Content */}
-      <main className="pt-16 md:pt-40 pb-16">
+      <main className="pt-16 md:pt-48 pb-16">
         <div className="max-w-4xl mx-auto px-4">
           
           {/* Latest Article */}
@@ -77,11 +77,11 @@ export default function NowPage() {
             
             <div className="prose max-w-none">
               <p className="mb-4">
-                the teenage engineering choir: official choral ensemble for disney pixar's 'elio'. when disney and pixar set out to create 'elio', a movie about a young boy making contact with distant alien life, they asked a fundamental question: what does space sound like?
+                the Operant Labs choir: official choral ensemble for disney pixar's 'elio'. when disney and pixar set out to create 'elio', a movie about a young boy making contact with distant alien life, they asked a fundamental question: what does space sound like?
               </p>
               
               <div className="bg-black text-white p-4 my-6">
-                <div className="text-sm font-medium">teenage engineering choir</div>
+                <div className="text-sm font-medium">Operant Labs choir</div>
                 <div className="text-2xl font-normal">$249</div>
               </div>
               
@@ -98,7 +98,7 @@ export default function NowPage() {
             <div className="mb-4">
               <h2 className="text-2xl font-normal mb-2">
                 <Link href="/now#bentgablentis" className="hover:underline">
-                  bentgablenits x teenage engineering
+                  bentgablenits x Operant Labs
                 </Link>
               </h2>
               <div className="text-sm text-gray-500">june 24, 2025</div>

@@ -120,7 +120,7 @@ export function Footer() {
 
           {/* Copyright */}
           <div className="col-span-3 text-right text-gray-500 font-shilia-light">
-            ©2025 teenage engineering
+            ©2025 Operant Labs
           </div>
         </div>
       </div>

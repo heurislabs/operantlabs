@@ -20,12 +20,12 @@ export default function NewsletterPage() {
     <div className="min-h-screen">
       <Header />
       
-      <main className="pt-12 md:pt-32">
+      <main className="pt-16 md:pt-44">
         <section className="max-w-4xl mx-auto px-4 py-16">
           <div className="text-center mb-16">
             <h1 className="text-4xl font-bold mb-8">newsletter</h1>
             <p className="text-gray-600 mb-8 max-w-2xl mx-auto">
-              stay updated with the latest news, product releases, and insights from teenage engineering. 
+              stay updated with the latest news, product releases, and insights from Operant Labs. 
               join our community of creators and music lovers.
             </p>
           </div>
@@ -54,7 +54,7 @@ export default function NewsletterPage() {
               </form>
               
               <div className="mt-8 text-xs text-gray-500 text-center">
-                by subscribing, you agree to receive marketing emails from teenage engineering. 
+                by subscribing, you agree to receive marketing emails from Operant Labs. 
                 you can unsubscribe at any time.
               </div>
             </div>

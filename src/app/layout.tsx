@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "teenage engineering",
-  description: "teenage engineering creates high quality, well designed, electronic products for all people who love sound and music.",
+  title: "Operant Labs",
+  description: "Operant Labs creates high quality, well designed, robotic products for all people who love automation and innovation.",
 };
 
 export default function RootLayout({

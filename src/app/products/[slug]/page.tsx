@@ -53,26 +53,38 @@ export default async function ProductDetailPage({ params }: PageProps) {
     <div className="min-h-screen">
       <Header />
       
-      <main className="pt-12 md:pt-32">
+      <main className="pt-16 md:pt-44">
         <div className="max-w-7xl mx-auto px-4 py-8">
           {/* Product Images and Info */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
             {/* Image Gallery */}
             <div className="space-y-4">
               {/* Main Image */}
-              <div className="aspect-square bg-gray-100 rounded-lg flex items-center justify-center">
-                <div className="text-gray-400 text-center">
-                  <div className="text-lg font-medium">{product.name}</div>
-                  <div className="text-sm">product image</div>
-                </div>
+              <div className="aspect-square bg-gray-100 rounded-lg flex items-center justify-center overflow-hidden">
+                {product.images && product.images.length > 0 ? (
+                  <img 
+                    src={product.images[0]} 
+                    alt={product.name}
+                    className="w-full h-full object-contain hover:scale-105 transition-transform duration-300"
+                  />
+                ) : (
+                  <div className="text-gray-400 text-center">
+                    <div className="text-lg font-medium">{product.name}</div>
+                    <div className="text-sm">product image</div>
+                  </div>
+                )}
               </div>
               
               {/* Thumbnail Images */}
               {product.images.length > 1 && (
                 <div className="flex gap-2">
-                  {product.images.map((_, index) => (
-                    <div key={index} className="w-16 h-16 bg-gray-100 rounded border-2 border-transparent hover:border-black cursor-pointer flex items-center justify-center">
-                      <div className="text-xs text-gray-400">{index + 1}</div>
+                  {product.images.map((image, index) => (
+                    <div key={index} className="w-16 h-16 bg-gray-100 rounded border-2 border-transparent hover:border-black cursor-pointer flex items-center justify-center overflow-hidden">
+                      <img 
+                        src={image} 
+                        alt={`${product.name} - View ${index + 1}`}
+                        className="w-full h-full object-contain"
+                      />
                     </div>
                   ))}
                 </div>

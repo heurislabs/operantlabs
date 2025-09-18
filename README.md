@@ -1,4 +1,4 @@
-# Teenage Engineering Website Recreation
+# Operant Labs Website Recreation
 
 A faithful recreation of the teenage.engineering website built with modern web technologies.
 
@@ -166,11 +166,11 @@ Extend the design system by adding custom utility classes in the `@layer utiliti
 
 ## License
 
-This project is for educational and demonstration purposes. The original teenage.engineering design and branding remain the property of teenage engineering.
+This project is for educational and demonstration purposes. The original design inspiration came from teenage.engineering.
 
 ## Acknowledgments
 
-- **teenage engineering** - For their inspiring design and innovative products
+- **Operant Labs** - For their inspiring design and innovative products
 - **Next.js team** - For the excellent React framework
 - **shadcn** - For the beautiful UI component library
 - **Tailwind CSS** - For the utility-first CSS framework
