@@ -9,9 +9,9 @@ export default function StorePage() {
     <div className="min-h-screen">
       <Header />
       
-      <main className="pt-24">
+      <main className="pt-12 md:pt-32">
         <section className="max-w-7xl mx-auto px-4 py-16">
-          <div className="text-center mb-16">
+          <div className="mb-16">
             <h1 className="text-4xl font-bold mb-8">store</h1>
             <p className="text-gray-600 mb-8">
               worldwide delivery. high quality, well designed, electronic products for all people who love sound and music.
@@ -22,7 +22,7 @@ export default function StorePage() {
                 visit our official store for the latest products and accessories
               </div>
               
-              <div className="flex justify-center gap-4">
+              <div className="flex gap-4">
                 <Button 
                   asChild
                   size="lg" 
@@ -92,7 +92,7 @@ export default function StorePage() {
           </div>
 
           {/* Store Info */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center text-sm text-gray-600">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-sm text-gray-600">
             <div>
               <h3 className="font-medium text-black mb-2">shipping</h3>
               <p>worldwide delivery available</p>

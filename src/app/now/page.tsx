@@ -8,7 +8,7 @@ export default function NowPage() {
       <Header />
       
       {/* Main Content */}
-      <main className="pt-32 pb-16">
+      <main className="pt-16 md:pt-40 pb-16">
         <div className="max-w-4xl mx-auto px-4">
           
           {/* Latest Article */}

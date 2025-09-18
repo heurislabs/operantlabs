@@ -8,7 +8,7 @@ export default function ProductsPage() {
     <div className="min-h-screen">
       <Header />
       
-      <main className="pt-24">
+      <main className="pt-12 md:pt-32">
         <section className="max-w-7xl mx-auto px-4 py-16">
           <div className="mb-16">
             <h1 className="text-4xl font-bold mb-8">products</h1>
