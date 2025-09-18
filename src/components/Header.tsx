@@ -92,19 +92,9 @@ export function Header() {
                 </div>
                 <div className="text-xs font-shilia-light text-gray-400 mt-1 space-y-0">
                   <div>
-                    <Link href="/support" className="hover:underline block text-gray-400">
+                    <Link href="/contact" className="hover:underline block text-gray-400">
                       contact us
                     </Link>
-                  </div>
-                  <div>
-                    <Link href="/downloads" className="hover:underline block text-gray-400">
-                      downloads
-                    </Link>
-                  </div>
-                  <div>
-                    <a href="https://support.operantlabs.com" className="hover:underline block text-gray-400">
-                      support portal
-                    </a>
                   </div>
                 </div>
               </div>
@@ -164,9 +154,6 @@ export function Header() {
               <div className="pt-4 border-t border-gray-800">
                 <Link href="/newsletter" className="text-sm font-shilia-light text-gray-400 hover:text-gray-200 block mb-2 transition-colors">
                   newsletter
-                </Link>
-                <Link href="/downloads" className="text-sm font-shilia-light text-gray-400 hover:text-gray-200 block transition-colors">
-                  downloads
                 </Link>
               </div>
             </div>

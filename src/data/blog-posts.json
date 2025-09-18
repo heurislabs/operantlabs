@@ -1,0 +1,126 @@
+[
+  {
+    "slug": "miike-snow",
+    "title": "how miike snow built their coachella show with OP–XY",
+    "date": "september 4, 2025",
+    "excerpt": "when swedish-american indie-pop band miike snow went on their reunion tour last year, they decided to bring the then unreleased OP–XY with them. together with love hultén, they built a custom made live rig where the OP–XY was embedded.",
+    "author": "teenage engineering",
+    "photographer": "Pao Duell",
+    "photographerUrl": "https://www.instagram.com/paoduell/",
+    "content": {
+      "introduction": "when swedish-american indie-pop band miike snow went on their reunion tour last year, they decided to bring the then unreleased OP–XY with them. together with love hultén, they built a custom made live rig where the OP–XY was embedded. this year, for the fourth time, the band returned to the coachella stage. with them, they brought the OP–XY and the same live rig. we sat down with our good friend and member of miike snow, pontus winnberg, to let us in on the story.",
+      "sections": [
+        {
+          "type": "image",
+          "caption": "pontus winnberg, one of three members of miike snow",
+          "alt": "pontus winnberg portrait"
+        },
+        {
+          "type": "qa",
+          "question": "how did it feel to return to coachella?",
+          "answer": "this was the fourth time we've played at coachella, last time was 2016 so a lot of things have happened to the festival and the vibe. i really enjoyed it. it was a lot of fun and we got a really good time slot, considering that we haven't released stuff in a while. we were on at 9:30 on the biggest tent right before the prodigy. the downside was that we were overlapping with missy elliott, which I would have loved to see."
+        },
+        {
+          "type": "image",
+          "caption": "the OP–XY rig",
+          "alt": "OP-XY live rig setup"
+        },
+        {
+          "type": "qa",
+          "question": "why did you decide to use the OP–XY for your live shows?",
+          "answer": "i was really into the OP–Z sequencer. i had long conversations with the project owner of OP–Z and OP–XY, jonas åberg, about what i felt could be done and added to the unit. there was a feature on the OP–Z, i can't remember what it was called, but it's what eventually became the brain function on the OP–XY. my interpretation of it is that it acts as a sort of auto-comp feature. like the old traditional home organs had this auto-comp: you could just play a chord and it would start. like this little electronic band would play along with whatever chords you fed it. that's basically what the brain in the OP–XY is. but you can dictate exactly what your little electronic orchestra should do. so it could be everything from a gesaffelstein track to... i don't know... a dance band. you're completely free. you can do whatever you want to do and that's also something i've been looking for in playing electronic music live, where it's impossible for a human to play something that is quantized, and it becomes a completely different expression."
+        },
+        {
+          "type": "subheading",
+          "text": "building the stage"
+        },
+        {
+          "type": "paragraph",
+          "text": "we did a lot of work behind the scenes before the OP–XY ever hit the public. there were only about twenty prototype units, and i begged to get one. the first time we played it was just like heaven, and from that point we slowly began integrating it into our show, but this year it kind of took over. it really became the heart and soul of the whole show."
+        },
+        {
+          "type": "image",
+          "caption": "custom made live rig by love hultén",
+          "alt": "custom live rig designed by love hultén"
+        },
+        {
+          "type": "qa",
+          "question": "tell us about the live setup.",
+          "answer": "the live setup was basically built around two OP–XY units, one connected to a prophet-10 and the other to a roland juno-106 mini clone. after that, we had a series of effects built into a kind of custom modular system. we also used the OP–XY as a sound source, especially for samples.\n\nmost songs were triggered by the brain function, so it was almost like having two huge auto-comp organs. the thrill, and part of the adventure, of performing is that nothing is synced. we usually have a metronome click playing in our earpieces, but it's mostly used as a common reference point. it's up to us as players to get it right, and sometimes, when it's slightly off, it becomes something pretty interesting."
+        },
+        {
+          "type": "qa",
+          "question": "how does your band approach live electronic performance, and what role does the OP–XY play in that?",
+          "answer": "i think it's important to keep the dangerous aspect of live music, something can go terribly wrong, and preferably not in a computer-crash way, but through musical mishaps that the players on stage have to adapt to and incorporate into the performance. otherwise, we could all just be at home listening to some crappy streaming service."
+        },
+        {
+          "type": "image",
+          "caption": "miike snow live at coachella 2025",
+          "alt": "miike snow performing live at coachella 2025"
+        },
+        {
+          "type": "paragraph",
+          "text": "one of the rig's most powerful features was scene switching. at the press of a button, we could change not just sounds on the OP–XY, but entire routing setups, including midi parameters, effect chains, and synth presets. when you add analog synths via midi control and stuff, what you can do is endless. this made moving between songs seamless, even without a centralized computer system.you load up a program, and all the sound data comes with it. it changes everything, on the OP–XY and across all the connected gear. i don't know any other equipment that does that. for us, as a band that's always blended precise sequencing with live unpredictability, the OP–XY is perfect."
+        },
+        {
+          "type": "paragraph",
+          "text": "it's kind of like electronic jazz, mistakes become part of the performance. every show is unique. the OP–XY gave us the freedom to extend sections, respond to the crowd, and rework familiar tracks in the moment. you have to be on your toes and if something goes down, you replace it with something else. it's built for that."
+        },
+        {
+          "type": "product",
+          "name": "OP–XY",
+          "price": "$2,299",
+          "url": "/products/op-xy"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "erick-the-architect",
+    "title": "catching up with erick the architect",
+    "date": "july 1, 2025",
+    "excerpt": "rapper, producer and all-around creative force erick the architect is ready to reintroduce himself. a friend of ours, erick grew up in new york, where he fell in love with music long before forming the iconic psychedelic hip-hop group flatbush zombies.",
+    "author": "teenage engineering",
+    "content": {
+      "introduction": "rapper, producer and all-around creative force erick the architect is ready to reintroduce himself. a friend of ours, erick grew up in new york, where he fell in love with music long before forming the iconic psychedelic hip-hop group flatbush zombies. after more than a decade with the group, world tours and critically acclaimed albums, he's now carving out a path of his own as a solo artist.",
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "last year, erick dropped his most ambitious and introspective body of work yet, 'i've never been here before.' the 16-track lp, both an echo of his youth and a reflection of where he's at today, was recently re-release as a director's cut. it features collaborations with artists like channel tres, george clinton and joey bada$$—figures we all know and admire."
+        },
+        {
+          "type": "paragraph",
+          "text": "now, erick returns to the fold with a new three-track ep, 'arcstrumentals 3'. in it, erick retains the quirks and fixations of 'i've never been here before', combining it with dance and electronic music—a shift inspired by recent collaborations with friends jungle and l'imperatrice. it's a step in a new sonic direction, but the unpredictability is part of what makes the brooklyn rapper so compelling."
+        },
+        {
+          "type": "paragraph",
+          "text": "we caught up with the new york native to talk about everything from flatbush zombies to his solo work, new york and its influences, and what's ahead in 2025."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "elio",
+    "title": "elio and the choir",
+    "date": "june 27, 2025",
+    "excerpt": "the teenage engineering choir: official choral ensemble for disney pixars 'elio'. when disney and pixar set out to create 'elio', a movie about a young boy making contact with distant alien life, they asked a fundamental question: what does space sound like?",
+    "author": "teenage engineering",
+    "content": {
+      "introduction": "the teenage engineering choir: official choral ensemble for disney pixars 'elio'. when disney and pixar set out to create 'elio', a movie about a young boy making contact with distant alien life, they asked a fundamental question: what does space sound like? composer rob simonsen found the answer in our teenage engineering choir dolls.",
+      "sections": [
+        {
+          "type": "quote",
+          "speaker": "rob simonsen",
+          "title": "composer rob simonsen",
+          "text": "we were looking for an otherworldly sound—something that sounded relatable, that echoed vocalizations, communication that humans could understand, but felt like it was from another world. i came across these choir dolls and heard their sound. it was beautiful—electronic, but human. each body is handcrafted. they have a robotic but organic sound at the same time. it felt like a perfect answer to what we were looking for."
+        },
+        {
+          "type": "product",
+          "name": "teenage engineering choir",
+          "price": "$249",
+          "url": "/products/choir"
+        }
+      ]
+    }
+  }
+]
