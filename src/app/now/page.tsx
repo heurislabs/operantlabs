@@ -77,7 +77,7 @@ export default function NowPage() {
             
             <div className="prose max-w-none">
               <p className="mb-4">
-                the Operant Labs choir: official choral ensemble for disney pixar's 'elio'. when disney and pixar set out to create 'elio', a movie about a young boy making contact with distant alien life, they asked a fundamental question: what does space sound like?
+                the Operant Labs choir: official choral ensemble for disney pixar&apos;s &apos;elio&apos;. when disney and pixar set out to create &apos;elio&apos;, a movie about a young boy making contact with distant alien life, they asked a fundamental question: what does space sound like?
               </p>
               
               <div className="bg-black text-white p-4 my-6">
@@ -165,7 +165,7 @@ export default function NowPage() {
             
             <div className="prose max-w-none">
               <p className="mb-4">
-                what started as an idea to grow the synth population has today earned its spot as the world's most accessible music machine, making its way into hundreds of thousands of pockets—and counting.
+                what started as an idea to grow the synth population has today earned its spot as the world&apos;s most accessible music machine, making its way into hundreds of thousands of pockets—and counting.
               </p>
               
               <p className="text-sm text-gray-600">

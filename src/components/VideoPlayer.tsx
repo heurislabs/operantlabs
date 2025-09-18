@@ -10,7 +10,7 @@ interface VideoPlayerProps {
 
 export function VideoPlayer({ videoId, className = "" }: VideoPlayerProps) {
   const [isPlaying, setIsPlaying] = useState(false);
-  const [showControls, setShowControls] = useState(true);
+  const [showControls] = useState(true);
   const iframeRef = useRef<HTMLIFrameElement>(null);
 
   const handlePlayPause = () => {

@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
-import { EvervaultCard, Icon } from "@/components/ui/evervault-card";
+import { Icon } from "@/components/ui/evervault-card";
 import productsData from "@/data/products.json";
 
 interface Product {

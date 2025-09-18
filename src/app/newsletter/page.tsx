@@ -68,7 +68,7 @@ export default function NewsletterPage() {
                 </div>
                 <h2 className="text-2xl font-bold mb-4">welcome to the family</h2>
                 <p className="text-gray-600">
-                  thank you for subscribing to our newsletter. you'll be the first to know about new products and updates.
+                  thank you for subscribing to our newsletter. you&apos;ll be the first to know about new products and updates.
                 </p>
               </div>
               

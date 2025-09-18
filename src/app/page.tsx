@@ -3,7 +3,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { VideoPlayer } from "@/components/VideoPlayer";
 import { Button } from "@/components/ui/button";
-import { EvervaultCard, Icon } from "@/components/ui/evervault-card";
+import { Icon } from "@/components/ui/evervault-card";
 import productsData from "@/data/products.json";
 
 interface Product {
@@ -30,7 +30,7 @@ export default function Home() {
                 {/* Logo/25 Section */}
                 <div className="text-center mb-16">
                   <div className="text-6xl font-shilia-thin mb-8">Operant Labs</div>
-                  <div className="text-sm font-shilia-light text-gray-600">Australia's premier source for intelligent autonomous robots.</div>
+                  <div className="text-sm font-shilia-light text-gray-600">Australia&apos;s premier source for intelligent autonomous robots.</div>
                 </div>
 
           {/* Video Section */}
