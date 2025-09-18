@@ -29,12 +29,12 @@ export default function Home() {
 
           {/* CTA Section */}
           <div className="text-center mb-16">
-            <Link href="/store">
+            <Link href="/products">
               <Button 
                 size="lg" 
                 className="rounded-full bg-black text-white hover:bg-gray-800 px-8 py-6 text-lg font-shilia-light"
               >
-                visit store
+                browse products
               </Button>
             </Link>
           </div>

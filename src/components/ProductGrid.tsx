@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
 import { EvervaultCard, Icon } from "@/components/ui/evervault-card";
+import productsData from "@/data/products.json";
 
 interface Product {
   id: string;
@@ -13,29 +14,7 @@ interface Product {
   isDiscontinued?: boolean;
 }
 
-const products: Product[] = [
-  { id: "1", name: "field system™", slug: "field-system", category: "field" },
-  { id: "2", name: "EP–133 K.O. II", slug: "ep-133", category: "EP series", isNew: true },
-  { id: "3", name: "OP–XY", slug: "op-xy", category: "synthesizer" },
-  { id: "4", name: "EP series", slug: "ep", category: "EP series" },
-  { id: "5", name: "pocket operators", slug: "po", category: "pocket operator" },
-  { id: "6", name: "TP–7", slug: "tp-7", category: "field" },
-  { id: "7", name: "OB–4", slug: "ob-4", category: "wireless speaker" },
-  { id: "8", name: "CM–15", slug: "cm-15", category: "field" },
-  { id: "9", name: "TX–6", slug: "tx-6", category: "field" },
-  { id: "10", name: "OP–1 ", slug: "op-1", category: "synthesizer" },
-  { id: "11", name: "field accessories", slug: "field-accessories", category: "field" },
-  { id: "12", name: "choir", slug: "choir", category: "synthesizer" },
-  { id: "13", name: "field desk", slug: "field-desk", category: "field" },
-  { id: "14", name: "computer–1", slug: "computer-1", category: "computer" },
-  { id: "15", name: "grip car", slug: "grip-car", category: "accessory" },
-  { id: "16", name: "OP–Z", slug: "op-z", category: "synthesizer", isDiscontinued: true },
-  { id: "17", name: "pocket operatormodular", slug: "po/modular", category: "pocket operator", isDiscontinued: true },
-  { id: "18", name: "OP-1", slug: "op-1/original", category: "synthesizer", isDiscontinued: true },
-  { id: "19", name: "ortho remote", slug: "orthoremote", category: "accessory", isDiscontinued: true },
-  { id: "20", name: "OD-11", slug: "od-11", category: "wireless speaker", isDiscontinued: true },
-  { id: "21", name: "PO-80", slug: "po-80", category: "pocket operator" },
-];
+const products: Product[] = productsData.products;
 
 export function ProductGrid() {
   const currentProducts = products.filter(p => !p.isDiscontinued);

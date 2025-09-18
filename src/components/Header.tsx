@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
-import { Menu, Package, Store, Newspaper, HelpCircle } from "lucide-react";
+import { Menu, Package, Newspaper, HelpCircle } from "lucide-react";
 
 export function Header() {
   return (
@@ -47,29 +47,6 @@ export function Header() {
               </div>
             </div>
 
-            {/* Store */}
-            <div className="flex-shrink-0 w-32 flex items-start space-x-2">
-              <div className="w-16 h-16 bg-black flex items-center justify-center">
-                <Store size={24} className="text-white" />
-              </div>
-              <div className="space-y-0 leading-tight">
-                <div className="font-shilia-light">
-                  <Link href="/store" className="hover:underline text-gray-200">store</Link>
-                </div>
-                <div className="text-xs font-shilia-light text-gray-400 mt-1 space-y-0">
-                  <div>
-                    <Link href="/store" className="hover:underline block text-gray-400">
-                      visit store
-                    </Link>
-                  </div>
-                  <div>
-                    <Link href="/store/checkout" className="hover:underline block text-gray-400">
-                      checkout
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
 
             {/* Now */}
             <div className="flex-shrink-0 w-32 flex items-start space-x-2">
@@ -107,12 +84,12 @@ export function Header() {
               </div>
               <div className="space-y-0 leading-tight">
                 <div className="font-shilia-light">
-                  <Link href="/guides" className="hover:underline text-gray-200">support</Link>
+                  <Link href="/support" className="hover:underline text-gray-200">support</Link>
                 </div>
                 <div className="text-xs font-shilia-light text-gray-400 mt-1 space-y-0">
                   <div>
-                    <Link href="/guides" className="hover:underline block text-gray-400">
-                      guides
+                    <Link href="/support" className="hover:underline block text-gray-400">
+                      contact us
                     </Link>
                   </div>
                   <div>
@@ -173,13 +150,10 @@ export function Header() {
               <Link href="/products" className="text-lg font-shilia-light text-gray-200 hover:text-white transition-colors">
                 products
               </Link>
-              <Link href="/store" className="text-lg font-shilia-light text-gray-200 hover:text-white transition-colors">
-                store
-              </Link>
               <Link href="/now" className="text-lg font-shilia-light text-gray-200 hover:text-white transition-colors">
                 now
               </Link>
-              <Link href="/guides" className="text-lg font-shilia-light text-gray-200 hover:text-white transition-colors">
+              <Link href="/support" className="text-lg font-shilia-light text-gray-200 hover:text-white transition-colors">
                 support
               </Link>
               <div className="pt-4 border-t border-gray-800">

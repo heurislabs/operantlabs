@@ -107,9 +107,6 @@ export function Footer() {
             <Link href="/retailers" className="hover:text-black transition-colors">
               retailers
             </Link>
-            <Link href="/store" className="hover:text-black transition-colors">
-              store
-            </Link>
             <Link href="/terms-and-conditions" className="hover:text-black transition-colors">
               terms
             </Link>

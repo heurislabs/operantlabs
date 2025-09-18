@@ -1,0 +1,448 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "field system™",
+      "slug": "field-system",
+      "price": "$2999",
+      "category": "field",
+      "isNew": false,
+      "isDiscontinued": false,
+      "description": "the complete field recording and production system. everything you need for professional audio capture and creative manipulation in one comprehensive package.",
+      "images": ["/placeholder-field-system-1.jpg"],
+      "shippingInfo": "ships worldwide",
+      "details": [
+        "complete field recording ecosystem",
+        "modular design for flexibility",
+        "professional audio quality",
+        "weather-resistant construction",
+        "long battery life",
+        "comprehensive accessory package"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "EP–133 K.O. II",
+      "slug": "ep-133",
+      "price": "$299",
+      "category": "EP series",
+      "isNew": true,
+      "isDiscontinued": false,
+      "description": "the ultimate pocket sampler and sequencer. K.O. II features hundreds of built-in sounds and the ability to sample and sequence your own. create beats, melodies and complete songs with this powerful little machine.",
+      "images": ["/placeholder-ep133-1.jpg", "/placeholder-ep133-2.jpg"],
+      "shippingInfo": "ships from the U.S.",
+      "specialOffer": "buy for $599 and get a free K.O. II splash kit. offer applies at checkout.",
+      "details": [
+        "built-in mic and speaker",
+        "8 stereo voices / 16 mono",
+        "64MB memory including 48MB ROM sounds and 16MB user sample memory",
+        "12 user projects",
+        "8 built-in effects and 16 punch-in effects",
+        "pressure sensitive keys and multi-functional fader",
+        "sampling frequency: 44.1 kHz / 16-bit",
+        "1x stereo in/out, sync in/out, midi in/out and usb-c",
+        "powered by 2x AA batteries, or via usb-c",
+        "dimensions: 162 x 102 x 15 mm | 6.4 x 4.0 x 0.6 in"
+      ],
+      "relatedProducts": [
+        {"name": "K.O. II splash kit", "slug": "ko-ii-splash-kit", "price": "$89"},
+        {"name": "EP series", "slug": "ep", "price": "$149"}
+      ]
+    },
+    {
+      "id": "3",
+      "name": "OP–XY",
+      "slug": "op-xy",
+      "price": "$2299",
+      "category": "synthesizer",
+      "isNew": false,
+      "isDiscontinued": false,
+      "description": "the next generation synthesizer and sampler. OP–XY combines the beloved OP–1 workflow with modern synthesis capabilities and expanded sampling features.",
+      "images": ["/placeholder-opxy-1.jpg", "/placeholder-opxy-2.jpg"],
+      "shippingInfo": "ships worldwide",
+      "details": [
+        "dual synthesis engines",
+        "advanced sampling capabilities",
+        "built-in effects and sequencer",
+        "high-resolution color display",
+        "premium build quality",
+        "rechargeable battery",
+        "usb-c connectivity",
+        "dimensions: 286 x 102 x 14.3 mm"
+      ],
+      "relatedProducts": [
+        {"name": "OP–1", "slug": "op-1", "price": "$1999"},
+        {"name": "field accessories", "slug": "field-accessories", "price": "$199"}
+      ]
+    },
+    {
+      "id": "4",
+      "name": "EP series",
+      "slug": "ep",
+      "price": "$149",
+      "category": "EP series",
+      "isNew": false,
+      "isDiscontinued": false,
+      "description": "the complete EP series collection. explore the full range of pocket samplers and sequencers that started the revolution.",
+      "images": ["/placeholder-ep-series-1.jpg"],
+      "shippingInfo": "ships worldwide",
+      "details": [
+        "multiple EP models available",
+        "pocket-sized design",
+        "built-in sounds and sampling",
+        "step sequencer",
+        "battery powered",
+        "durable construction"
+      ],
+      "relatedProducts": [
+        {"name": "EP–133 K.O. II", "slug": "ep-133", "price": "$299"}
+      ]
+    },
+    {
+      "id": "5",
+      "name": "pocket operators",
+      "slug": "po",
+      "price": "$59",
+      "category": "pocket operator",
+      "isNew": false,
+      "isDiscontinued": false,
+      "description": "small synthesizers with big sound. pocket operators are ultra-portable music makers that fit in your pocket and deliver professional results.",
+      "images": ["/placeholder-po-1.jpg"],
+      "shippingInfo": "ships worldwide",
+      "details": [
+        "ultra-portable design",
+        "built-in speaker",
+        "step sequencer",
+        "multiple synthesis modes",
+        "battery powered",
+        "chainable with other units",
+        "dimensions: 120 x 70 x 17 mm"
+      ],
+      "relatedProducts": [
+        {"name": "PO-80", "slug": "po-80", "price": "$89"}
+      ]
+    },
+    {
+      "id": "6",
+      "name": "TP–7",
+      "slug": "tp-7",
+      "price": "$1499",
+      "category": "field",
+      "isNew": false,
+      "isDiscontinued": false,
+      "description": "professional field recording redefined. the TP–7 combines pristine audio quality with intuitive operation in a compact, durable package.",
+      "images": ["/placeholder-tp7-1.jpg"],
+      "shippingInfo": "ships worldwide",
+      "details": [
+        "32-bit float recording",
+        "built-in microphones",
+        "phantom power for external mics",
+        "timecode synchronization",
+        "weather-resistant design",
+        "long battery life",
+        "professional audio interfaces"
+      ]
+    },
+    {
+      "id": "7",
+      "name": "OB–4",
+      "slug": "ob-4",
+      "price": "$899",
+      "category": "wireless speaker",
+      "isNew": false,
+      "isDiscontinued": false,
+      "description": "magic radio for everyone. the OB–4 is a high fidelity loudspeaker and FM radio that connects to your devices and the world around you.",
+      "images": ["/placeholder-ob4-1.jpg"],
+      "shippingInfo": "ships worldwide",
+      "details": [
+        "FM radio with digital display",
+        "bluetooth connectivity",
+        "line input for external devices",
+        "built-in rechargeable battery",
+        "premium wood and metal construction",
+        "dimensions: 340 x 190 x 90 mm"
+      ]
+    },
+    {
+      "id": "8",
+      "name": "CM–15",
+      "slug": "cm-15",
+      "price": "$199",
+      "category": "field",
+      "isNew": false,
+      "isDiscontinued": false,
+      "description": "compact condenser microphone designed for field recording and studio applications. crystal clear sound in a portable package.",
+      "images": ["/placeholder-cm15-1.jpg"],
+      "shippingInfo": "ships worldwide",
+      "details": [
+        "condenser capsule",
+        "cardioid polar pattern",
+        "phantom power required",
+        "frequency response: 20Hz - 20kHz",
+        "maximum SPL: 130dB",
+        "ultra-low noise floor"
+      ]
+    },
+    {
+      "id": "9",
+      "name": "TX–6",
+      "slug": "tx-6",
+      "price": "$1199",
+      "category": "field",
+      "isNew": false,
+      "isDiscontinued": false,
+      "description": "ultra-portable stereo mixer with built-in synthesizer and sequencer. perfect for live performance and studio production.",
+      "images": ["/placeholder-tx6-1.jpg"],
+      "shippingInfo": "ships worldwide",
+      "details": [
+        "6 stereo channels",
+        "built-in effects",
+        "integrated synthesizer",
+        "step sequencer",
+        "usb-c connectivity",
+        "battery powered",
+        "dimensions: 186 x 98 x 40 mm"
+      ]
+    },
+    {
+      "id": "10",
+      "name": "OP–1",
+      "slug": "op-1",
+      "price": "$1999",
+      "category": "synthesizer",
+      "isNew": false,
+      "isDiscontinued": false,
+      "description": "the legendary portable synthesizer, sampler and sequencer. OP–1 combines multiple synthesis engines with intuitive controls in an iconic design.",
+      "images": ["/placeholder-op1-1.jpg"],
+      "shippingInfo": "ships worldwide",
+      "details": [
+        "multiple synthesis engines",
+        "built-in sampler",
+        "4-track sequencer",
+        "built-in effects",
+        "FM radio",
+        "rechargeable battery",
+        "premium aluminum construction",
+        "dimensions: 286 x 102 x 14.3 mm"
+      ],
+      "relatedProducts": [
+        {"name": "OP–XY", "slug": "op-xy", "price": "$2299"}
+      ]
+    },
+    {
+      "id": "11",
+      "name": "field accessories",
+      "slug": "field-accessories",
+      "price": "$199",
+      "category": "field",
+      "isNew": false,
+      "isDiscontinued": false,
+      "description": "complete your field recording setup with essential accessories. cables, adapters, mounts and protective gear for professional results.",
+      "images": ["/placeholder-field-acc-1.jpg"],
+      "shippingInfo": "ships worldwide",
+      "details": [
+        "professional audio cables",
+        "microphone mounts and adapters",
+        "protective cases",
+        "windscreens and pop filters",
+        "power accessories",
+        "field recording essentials"
+      ]
+    },
+    {
+      "id": "12",
+      "name": "choir",
+      "slug": "choir",
+      "price": "$899",
+      "category": "synthesizer",
+      "isNew": false,
+      "isDiscontinued": false,
+      "description": "vocal synthesis redefined. choir creates stunning vocal textures and harmonies with advanced synthesis algorithms and intuitive performance controls.",
+      "images": ["/placeholder-choir-1.jpg"],
+      "shippingInfo": "ships worldwide",
+      "details": [
+        "advanced vocal synthesis",
+        "real-time harmony generation",
+        "multiple voice types",
+        "built-in effects",
+        "midi connectivity",
+        "battery powered",
+        "compact design"
+      ]
+    },
+    {
+      "id": "13",
+      "name": "field desk",
+      "slug": "field-desk",
+      "price": "$1899",
+      "category": "field",
+      "isNew": false,
+      "isDiscontinued": false,
+      "description": "portable recording console for field applications. combines mixing, monitoring and recording capabilities in a rugged, portable package.",
+      "images": ["/placeholder-field-desk-1.jpg"],
+      "shippingInfo": "ships worldwide",
+      "details": [
+        "8-channel mixing console",
+        "built-in recorder",
+        "phantom power",
+        "headphone monitoring",
+        "rugged construction",
+        "battery powered",
+        "field-ready design"
+      ]
+    },
+    {
+      "id": "14",
+      "name": "computer–1",
+      "slug": "computer-1",
+      "price": "$3999",
+      "category": "computer",
+      "isNew": false,
+      "isDiscontinued": false,
+      "description": "purpose-built computer for music production. optimized hardware and software for seamless audio creation and performance.",
+      "images": ["/placeholder-computer1-1.jpg"],
+      "shippingInfo": "ships worldwide",
+      "details": [
+        "optimized for audio production",
+        "custom operating system",
+        "built-in audio interface",
+        "dedicated music software",
+        "premium construction",
+        "silent operation",
+        "compact form factor"
+      ]
+    },
+    {
+      "id": "15",
+      "name": "grip car",
+      "slug": "grip-car",
+      "price": "$149",
+      "category": "accessory",
+      "isNew": false,
+      "isDiscontinued": false,
+      "description": "mobile equipment transport solution. securely carry and position your gear with this versatile rolling platform.",
+      "images": ["/placeholder-grip-car-1.jpg"],
+      "shippingInfo": "ships worldwide",
+      "details": [
+        "rolling platform design",
+        "adjustable mounting points",
+        "durable construction",
+        "compact when folded",
+        "universal compatibility",
+        "professional grade materials"
+      ]
+    },
+    {
+      "id": "16",
+      "name": "OP–Z",
+      "slug": "op-z",
+      "price": "$599",
+      "category": "synthesizer",
+      "isNew": false,
+      "isDiscontinued": true,
+      "description": "the portable synthesizer and sequencer that started it all. OP–Z combined innovative design with powerful capabilities.",
+      "images": ["/placeholder-opz-1.jpg"],
+      "details": [
+        "16-track sequencer",
+        "multiple synthesis engines",
+        "built-in effects",
+        "compact design",
+        "battery powered",
+        "discontinued - limited availability"
+      ]
+    },
+    {
+      "id": "17",
+      "name": "pocket operatormodular",
+      "slug": "po/modular",
+      "price": "$399",
+      "category": "pocket operator",
+      "isNew": false,
+      "isDiscontinued": true,
+      "description": "modular synthesis in pocket operator format. expandable system for complex sound design and sequencing.",
+      "images": ["/placeholder-po-modular-1.jpg"],
+      "details": [
+        "modular synthesis",
+        "expandable system",
+        "pocket operator format",
+        "advanced sequencing",
+        "discontinued model"
+      ]
+    },
+    {
+      "id": "18",
+      "name": "OP-1",
+      "slug": "op-1/original",
+      "price": "$1299",
+      "category": "synthesizer",
+      "isNew": false,
+      "isDiscontinued": true,
+      "description": "the original OP-1 synthesizer that revolutionized portable music making. classic design with timeless appeal.",
+      "images": ["/placeholder-op1-original-1.jpg"],
+      "details": [
+        "original OP-1 design",
+        "classic synthesis engines",
+        "4-track sequencer",
+        "built-in effects",
+        "discontinued - collector's item"
+      ]
+    },
+    {
+      "id": "19",
+      "name": "ortho remote",
+      "slug": "orthoremote",
+      "price": "$199",
+      "category": "accessory",
+      "isNew": false,
+      "isDiscontinued": true,
+      "description": "wireless control surface for remote operation. precision control for studio and live applications.",
+      "images": ["/placeholder-ortho-1.jpg"],
+      "details": [
+        "wireless operation",
+        "precision controls",
+        "studio and live use",
+        "discontinued model"
+      ]
+    },
+    {
+      "id": "20",
+      "name": "OD-11",
+      "slug": "od-11",
+      "price": "$799",
+      "category": "wireless speaker",
+      "isNew": false,
+      "isDiscontinued": true,
+      "description": "the original wireless speaker that defined the category. premium sound quality in an iconic design.",
+      "images": ["/placeholder-od11-1.jpg"],
+      "details": [
+        "premium sound quality",
+        "wireless connectivity",
+        "iconic design",
+        "discontinued model"
+      ]
+    },
+    {
+      "id": "21",
+      "name": "PO-80",
+      "slug": "po-80",
+      "price": "$89",
+      "category": "pocket operator",
+      "isNew": false,
+      "isDiscontinued": false,
+      "description": "advanced pocket operator with expanded capabilities. more sounds, more sequences, more possibilities.",
+      "images": ["/placeholder-po80-1.jpg"],
+      "shippingInfo": "ships worldwide",
+      "details": [
+        "expanded sound library",
+        "advanced sequencing",
+        "pocket operator format",
+        "battery powered",
+        "chainable design",
+        "built-in speaker"
+      ],
+      "relatedProducts": [
+        {"name": "pocket operators", "slug": "po", "price": "$59"}
+      ]
+    }
+  ]
+}

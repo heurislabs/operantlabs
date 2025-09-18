@@ -36,14 +36,6 @@ export default function ProductsPage() {
 
           <ProductGrid />
 
-          <div className="text-center mt-16 pt-16 border-t border-gray-200">
-            <Link 
-              href="/store" 
-              className="text-sm text-gray-600 hover:text-black transition-colors border-b border-gray-300 hover:border-black"
-            >
-              worldwide delivery. visit our store.
-            </Link>
-          </div>
         </section>
       </main>
 
