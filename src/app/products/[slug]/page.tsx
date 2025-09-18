@@ -2,10 +2,12 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { Card } from "@/components/ui/card";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { EvervaultCard, Icon } from "@/components/ui/evervault-card";
+import { VideoPlayer } from "@/components/VideoPlayer";
+import { FeaturesSectionDemo } from "@/components/FeaturesSection";
+import { CaseStudiesSection } from "@/components/CaseStudiesSection";
 import productsData from "@/data/products.json";
 
 // Product data structure
@@ -18,6 +20,8 @@ interface ProductDetail {
   isNew?: boolean;
   isDiscontinued?: boolean;
   description: string;
+  introduction?: string;
+  video?: string;
   images: string[];
   details: string[];
   shippingInfo?: string;
@@ -55,12 +59,29 @@ export default async function ProductDetailPage({ params }: PageProps) {
       
       <main className="pt-16 md:pt-44">
         <div className="max-w-7xl mx-auto px-4 py-8">
+          {/* Optional Video Section */}
+          {product.video && (
+            <div className="mb-16">
+              <VideoPlayer videoId={product.video} className="w-full h-[400px] lg:h-[500px]" />
+            </div>
+          )}
+
+          {/* Product Introduction */}
+          {product.introduction && (
+            <div className="mb-16 text-center">
+              <div className="max-w-4xl mx-auto">
+                <h2 className="text-2xl lg:text-3xl font-bold mb-6">Introduction</h2>
+                <p className="text-lg text-gray-700 leading-relaxed">{product.introduction}</p>
+              </div>
+            </div>
+          )}
+
           {/* Product Images and Info */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
             {/* Image Gallery */}
             <div className="space-y-4">
               {/* Main Image */}
-              <div className="aspect-square bg-gray-100 rounded-lg flex items-center justify-center overflow-hidden">
+              <div className="aspect-square bg-gray-50 flex items-center justify-center overflow-hidden">
                 {product.images && product.images.length > 0 ? (
                   <img 
                     src={product.images[0]} 
@@ -79,7 +100,7 @@ export default async function ProductDetailPage({ params }: PageProps) {
               {product.images.length > 1 && (
                 <div className="flex gap-2">
                   {product.images.map((image, index) => (
-                    <div key={index} className="w-16 h-16 bg-gray-100 rounded border-2 border-transparent hover:border-black cursor-pointer flex items-center justify-center overflow-hidden">
+                    <div key={index} className="w-16 h-16 bg-gray-50 border-2 border-transparent hover:border-black cursor-pointer flex items-center justify-center overflow-hidden">
                       <img 
                         src={image} 
                         alt={`${product.name} - View ${index + 1}`}
@@ -117,7 +138,7 @@ export default async function ProductDetailPage({ params }: PageProps) {
                 <Button 
                   asChild
                   size="lg" 
-                  className="w-full rounded-full bg-black text-white hover:bg-gray-800"
+                  className="w-full bg-black text-white hover:bg-gray-800"
                   disabled={product.isDiscontinued}
                 >
                   {product.isDiscontinued ? (
@@ -131,7 +152,7 @@ export default async function ProductDetailPage({ params }: PageProps) {
                   <Button 
                     variant="outline" 
                     size="lg" 
-                    className="w-full rounded-full border-black text-black hover:bg-black hover:text-white"
+                    className="w-full border-black text-black hover:bg-black hover:text-white"
                   >
                     buy now
                   </Button>
@@ -140,7 +161,7 @@ export default async function ProductDetailPage({ params }: PageProps) {
 
               {/* Special Offer */}
               {product.specialOffer && (
-                <div className="bg-gray-50 p-4 rounded-lg">
+                <div className="p-4 border-l-4 border-black">
                   <div className="text-sm font-medium">{product.specialOffer}</div>
                 </div>
               )}
@@ -155,7 +176,7 @@ export default async function ProductDetailPage({ params }: PageProps) {
           {/* Product Details */}
           <div className="mb-16">
             <h2 className="text-xl font-bold mb-6">details</h2>
-            <Card className="p-6">
+            <div className="border-l-4 border-gray-300 pl-6">
               <ul className="space-y-2">
                 {product.details.map((detail, index) => (
                   <li key={index} className="text-sm text-gray-700">
@@ -163,37 +184,17 @@ export default async function ProductDetailPage({ params }: PageProps) {
                   </li>
                 ))}
               </ul>
-            </Card>
+            </div>
           </div>
 
-          {/* Related Products */}
-          {product.relatedProducts && product.relatedProducts.length > 0 && (
-            <div className="mb-16">
-              <h2 className="text-xl font-bold mb-6">related</h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                {product.relatedProducts.map((related, index) => (
-                  <Link key={index} href={`/products/${related.slug}`} className="group">
-                    <div className="border border-black/[0.2] dark:border-white/[0.2] flex flex-col items-start max-w-sm mx-auto p-4 relative h-[30rem]">
-                      <Icon className="absolute h-6 w-6 -top-3 -left-3 dark:text-white text-black" />
-                      <Icon className="absolute h-6 w-6 -bottom-3 -left-3 dark:text-white text-black" />
-                      <Icon className="absolute h-6 w-6 -top-3 -right-3 dark:text-white text-black" />
-                      <Icon className="absolute h-6 w-6 -bottom-3 -right-3 dark:text-white text-black" />
+          {/* Features Section */}
+          <div className="mb-16">
+            <h2 className="text-2xl font-bold mb-8 text-center">Features</h2>
+            <FeaturesSectionDemo />
+          </div>
 
-                      <EvervaultCard text={related.name} />
-
-                      <div className="flex items-center justify-between w-full mt-4">
-                        <h3 className="font-medium text-sm group-hover:underline dark:text-white text-black">{related.name}</h3>
-                        <div className="text-sm font-medium dark:text-white text-black">{related.price}</div>
-                      </div>
-                      <Button asChild size="sm" className="w-full mt-2 rounded-full bg-black text-white hover:bg-gray-800">
-                        <Link href="/support">contact us</Link>
-                      </Button>
-                    </div>
-                  </Link>
-                ))}
-              </div>
-            </div>
-          )}
+          {/* Case Studies Section */}
+          <CaseStudiesSection />
 
           {/* Accessories */}
           {product.accessories && product.accessories.length > 0 && (
@@ -214,7 +215,36 @@ export default async function ProductDetailPage({ params }: PageProps) {
                         <h3 className="font-medium text-sm group-hover:underline dark:text-white text-black">{accessory.name}</h3>
                         <div className="text-sm font-medium dark:text-white text-black">{accessory.price}</div>
                       </div>
-                      <Button asChild size="sm" className="w-full mt-2 rounded-full bg-black text-white hover:bg-gray-800">
+                      <Button asChild size="sm" className="w-full mt-2 bg-black text-white hover:bg-gray-800">
+                        <Link href="/support">contact us</Link>
+                      </Button>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Related Products */}
+          {product.relatedProducts && product.relatedProducts.length > 0 && (
+            <div className="mb-16">
+              <h2 className="text-xl font-bold mb-6">related</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                {product.relatedProducts.map((related, index) => (
+                  <Link key={index} href={`/products/${related.slug}`} className="group">
+                    <div className="border border-black/[0.2] dark:border-white/[0.2] flex flex-col items-start max-w-sm mx-auto p-4 relative h-[30rem]">
+                      <Icon className="absolute h-6 w-6 -top-3 -left-3 dark:text-white text-black" />
+                      <Icon className="absolute h-6 w-6 -bottom-3 -left-3 dark:text-white text-black" />
+                      <Icon className="absolute h-6 w-6 -top-3 -right-3 dark:text-white text-black" />
+                      <Icon className="absolute h-6 w-6 -bottom-3 -right-3 dark:text-white text-black" />
+
+                      <EvervaultCard text={related.name} />
+
+                      <div className="flex items-center justify-between w-full mt-4">
+                        <h3 className="font-medium text-sm group-hover:underline dark:text-white text-black">{related.name}</h3>
+                        <div className="text-sm font-medium dark:text-white text-black">{related.price}</div>
+                      </div>
+                      <Button asChild size="sm" className="w-full mt-2 bg-black text-white hover:bg-gray-800">
                         <Link href="/support">contact us</Link>
                       </Button>
                     </div>

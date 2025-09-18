@@ -9,6 +9,8 @@
       "isNew": true,
       "isDiscontinued": false,
       "description": "A next-generation automated solution to transform industries and redefine how intelligent assistance works in real-world environments. Premium service & delivery robot with advanced AI capabilities.",
+      "introduction": "Meet the OL Signature™ - the pinnacle of service robotics engineering. Designed to seamlessly integrate into any environment, this premium robot combines cutting-edge AI with elegant design to deliver exceptional service experiences. From luxury hotels to corporate offices, the OL Signature™ sets new standards for intelligent automation.",
+      "video": "dQw4w9WgXcQ",
       "images": ["https://www.alphadroid.io/assets/alphasign-D_jGLX3H.svg", "https://www.alphadroid.io/assets/alphasign-D_jGLX3H.svg"],
       "shippingInfo": "ships worldwide",
       "details": [
@@ -37,6 +39,8 @@
       "isNew": true,
       "isDiscontinued": false,
       "description": "One bot. Endless roles. Smart service & delivery robot built for 24/7, high-speed autonomous logistics. Delivers goods across large spaces with zero manual effort and full precision.",
+      "introduction": "Experience limitless possibilities with OL Infinity. This versatile autonomous delivery robot adapts to any environment and handles multiple roles simultaneously. Whether it's a bustling hospital, a busy warehouse, or a dynamic retail space, OL Infinity delivers consistent performance around the clock.",
+      "video": "jNQXAC9IVRw",
       "images": ["https://www.alphadroid.io/assets/alphainf-CZ71wFLB.svg", "https://www.alphadroid.io/assets/alphainf-CZ71wFLB.svg"],
       "shippingInfo": "ships worldwide",
       "details": [
@@ -65,6 +69,8 @@
       "isNew": false,
       "isDiscontinued": false,
       "description": "Secure Deliveries. Seamless Automation. Advanced security robot with autonomous delivery capabilities designed for high-value items and sensitive materials.",
+      "introduction": "When security cannot be compromised, choose OL Iron. This fortress on wheels combines military-grade security protocols with intelligent automation to ensure your most valuable items reach their destination safely. Trusted by banks, hospitals, and government facilities worldwide.",
+      "video": "M7lc1UVf-VE",
       "images": ["https://www.alphadroid.io/assets/alphairn-BXezWzkw.svg", "https://www.alphadroid.io/assets/alphairn-BXezWzkw.svg"],
       "shippingInfo": "ships worldwide",
       "details": [
@@ -94,6 +100,8 @@
       "isNew": false,
       "isDiscontinued": false,
       "description": "Smart Detection Made For Dynamic Retail Spaces. Advanced AI-powered detection and analytics robot specifically engineered for modern retail environments.",
+      "introduction": "Transform your retail space into an intelligent ecosystem with OL Veltra. This advanced detection robot provides real-time insights into customer behavior, inventory management, and security threats. Make data-driven decisions that boost sales and enhance customer experiences.",
+      "video": "YQHsXMglC9A",
       "images": ["https://www.alphadroid.io/assets/alpahvelt-C8gd5x43.svg", "https://www.alphadroid.io/assets/alpahvelt-C8gd5x43.svg"],
       "shippingInfo": "ships worldwide",
       "details": [
@@ -123,6 +131,8 @@
       "isNew": false,
       "isDiscontinued": false,
       "description": "See. Sense. Serve. Enclosed smart service & delivery robot designed for precision operations in hotels, workspaces, and hospitality environments.",
+      "introduction": "Elevate your hospitality service with OL Smart. This elegant, enclosed robot delivers exceptional guest experiences through precision service delivery and intelligent automation. Perfect for luxury hotels, corporate offices, and premium service environments where discretion and efficiency are paramount.",
+      "video": "3JZ_D3ELwAg",
       "images": ["https://www.alphadroid.io/assets/alphasmrt-CMfp7Dj_.webp", "https://www.alphadroid.io/assets/smart1-qFMJ_P_6.svg", "https://www.alphadroid.io/assets/smart2-FOM319u3.svg"],
       "shippingInfo": "ships worldwide",
       "details": [
@@ -152,6 +162,8 @@
       "isNew": false,
       "isDiscontinued": false,
       "description": "The Kiosk That Comes To Life. Premium conversational AI robot that transforms static information displays into dynamic, interactive experiences.",
+      "introduction": "Bring information to life with OL Echo. This mobile conversational AI robot revolutionizes how people access information by moving intelligently through spaces and engaging naturally through voice, touch, or gesture. Say goodbye to static kiosks and hello to dynamic, personalized information delivery.",
+      "video": "kJQP7kiw5Fk",
       "images": ["https://www.alphadroid.io/assets/kiosk1-D1paMPSk.svg", "https://www.alphadroid.io/assets/kiosk2-CgjQ6nU3.svg", "https://www.alphadroid.io/assets/kiosk3-DH-YDuSq.svg", "https://www.alphadroid.io/assets/kiosk4-CuN2EPEV.svg", "https://www.alphadroid.io/assets/kiosk5-ffo8Cn39.svg"],
       "shippingInfo": "ships worldwide",
       "details": [
@@ -181,6 +193,8 @@
       "isNew": false,
       "isDiscontinued": false,
       "description": "Clean Spaces, No Traces. Smart waste collection robot that revolutionizes cleanliness with contactless, automated waste management for every industry.",
+      "introduction": "Redefine cleanliness with OL Envoro. This innovative waste collection robot brings hygiene solutions directly to you, eliminating the need to search for disposal points. With contactless operation and intelligent navigation, OL Envoro maintains pristine environments while ensuring complete safety and convenience.",
+      "video": "LsoLEjrDogU",
       "images": ["https://www.alphadroid.io/assets/env1-BobE7Xmc.svg", "https://www.alphadroid.io/assets/env2-D0-VJwkh.svg", "https://www.alphadroid.io/assets/env3-CEbFNTTA.svg", "https://www.alphadroid.io/assets/env4-CL9vupRL.svg", "https://www.alphadroid.io/assets/env5-BCrimB9n.svg"],
       "shippingInfo": "ships worldwide",
       "details": [
@@ -210,6 +224,8 @@
       "isNew": true,
       "isDiscontinued": false,
       "description": "Robots that work with you, not just for you. Advanced collaborative robot designed to work alongside human teams in various industrial applications.",
+      "introduction": "Experience true human-robot collaboration with OL Shine. This advanced cobot seamlessly integrates into your team, learning from your workflows and adapting to your needs. Built with safety-first design and intuitive interfaces, OL Shine enhances human capabilities without replacing the human touch.",
+      "video": "fJ9rUzIMcZQ",
       "images": ["https://www.alphadroid.io/assets/alphashine-placeholder.svg"],
       "shippingInfo": "ships worldwide",
       "details": [
@@ -236,6 +252,8 @@
       "isNew": true,
       "isDiscontinued": false,
       "description": "Natural conversations and real assistance, delivered with clarity. Advanced conversational AI system for customer service and business automation.",
+      "introduction": "Unlock the power of natural conversation with OL Assistant AI. This sophisticated AI system understands context, emotion, and intent to deliver human-like interactions at scale. Whether handling customer inquiries or automating business processes, OL Assistant AI provides intelligent, empathetic, and efficient communication solutions.",
+      "video": "qDuKsiwS5xw",
       "images": ["https://www.alphadroid.io/assets/heyalpha-placeholder.svg"],
       "shippingInfo": "ships worldwide",
       "details": [
@@ -262,6 +280,8 @@
       "isNew": false,
       "isDiscontinued": false,
       "description": "Advanced autonomous security patrol robot with AI-powered threat detection, perimeter monitoring, and real-time incident response capabilities.",
+      "introduction": "Secure your perimeter with RoboGuard Pro. This autonomous security patrol robot provides 24/7 surveillance with military-grade sensors and AI-powered threat detection. From corporate campuses to industrial facilities, RoboGuard Pro delivers uncompromising security with intelligent automation and real-time response capabilities.",
+      "video": "tgbNymZ7vqY",
       "images": ["/robo-guard-1.jpg"],
       "shippingInfo": "ships worldwide",
       "details": [
@@ -288,6 +308,8 @@
       "isNew": false,
       "isDiscontinued": false,
       "description": "Professional autonomous cleaning robot with advanced navigation, multiple cleaning modes, and facility management integration for large commercial spaces.",
+      "introduction": "Maintain pristine environments with CleanBot Elite. This professional-grade cleaning robot combines advanced navigation with multiple cleaning modes to handle any commercial space. From hospitals to office buildings, CleanBot Elite delivers consistent, thorough cleaning while integrating seamlessly with your facility management systems.",
+      "video": "BaW_jenozKc",
       "images": ["/clean-bot-1.jpg"],
       "shippingInfo": "ships worldwide",
       "details": [
@@ -314,6 +336,8 @@
       "isNew": true,
       "isDiscontinued": false,
       "description": "Specialized healthcare robot for patient assistance, medication delivery, and medical equipment transport in hospitals and healthcare facilities.",
+      "introduction": "Enhance patient care with MediBot Assistant. This specialized healthcare robot combines medical-grade protocols with compassionate service delivery. From medication management to patient assistance, MediBot Assistant supports healthcare teams while maintaining the highest standards of safety, hygiene, and compliance.",
+      "video": "k1BneeJTDcU",
       "images": ["/medi-bot-1.jpg"],
       "shippingInfo": "ships worldwide",
       "details": [
