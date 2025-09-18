@@ -1,0 +1,45 @@
+# Operant Labs
+
+> Australia's premier source for intelligent autonomous robots. We specialize in service robots, delivery robots, security systems, and AI-powered solutions for hospitality, retail, healthcare, and industrial applications.
+
+Operant Labs designs and manufactures cutting-edge autonomous robots that transform how businesses operate. Our product line includes service robots for hospitality, autonomous delivery systems, security patrol robots, cleaning automation, conversational AI systems, and collaborative robots for various industries.
+
+Important notes:
+
+- All products ship worldwide from Australia
+- Specializing in SLAM navigation, AI-powered interactions, and autonomous operations
+- Serving industries including hospitality, retail, QSR, healthcare, public spaces, aviation, manufacturing, and more
+- Products range from $2,999 to $32,999 with various customization options available
+
+## Products
+
+- [OL Signature™](https://operantlabs.com/products/ol-signature): Premium service & delivery robot with advanced AI capabilities, facial recognition, and LiDAR navigation ($24,999)
+- [OL Infinity](https://operantlabs.com/products/ol-infinity): High-speed autonomous delivery robot built for 24/7 logistics operations ($19,999)
+- [OL Iron](https://operantlabs.com/products/ol-iron): Secure delivery robot with advanced security protocols for high-value items ($16,999)
+- [OL Smart](https://operantlabs.com/products/ol-smart): Enclosed smart service robot for hotels, workspaces, and hospitality environments ($14,999)
+- [OL Veltra](https://operantlabs.com/products/ol-veltra): AI-powered detection and analytics robot for retail environments ($12,999)
+- [OL Echo](https://operantlabs.com/products/ol-echo): Premium conversational AI robot that transforms static displays into interactive experiences ($9,999)
+- [OL Envoro](https://operantlabs.com/products/ol-envoro): Smart waste collection robot with contactless, automated waste management ($18,999)
+- [OL Shine](https://operantlabs.com/products/ol-shine): Advanced collaborative robot for human-robot collaboration in industrial applications ($22,999)
+- [MediBot Assistant](https://operantlabs.com/products/medi-bot-assistant): Specialized healthcare robot for patient assistance and medication delivery ($32,999)
+- [RoboGuard Pro](https://operantlabs.com/products/robo-guard-pro): Autonomous security patrol robot with AI-powered threat detection ($29,999)
+- [CleanBot Elite](https://operantlabs.com/products/clean-bot-elite): Professional autonomous cleaning robot for large commercial spaces ($15,999)
+- [OL Assistant AI](https://operantlabs.com/products/ol-assistant): Advanced conversational AI system for customer service and business automation ($2,999)
+
+## Support & Services
+
+- [Support](https://operantlabs.com/support): Technical support, product inquiries, and customer assistance
+- [Phone Support](tel:+61-2-8006-5555): +61 2 8006 5555 - Australian support team available Monday-Friday 9AM-5PM AEST
+- [Email Support](mailto:support@operantlabs.com): Detailed technical assistance and customization requests
+- [Live Chat](https://support.operantlabs.com/chat): Instant support during business hours
+- [Knowledge Base](https://docs.operantlabs.com): Comprehensive documentation, guides, and FAQs
+
+## Company Information
+
+- [Newsletter](https://operantlabs.com/newsletter): Stay updated with product releases and company news
+- [Now](https://operantlabs.com/now): Latest company updates, partnerships, and industry insights
+
+## Optional
+
+- [Business Hours & Response Times](https://operantlabs.com/support#business-hours): Detailed support availability and response time information
+- [Industries Served](https://operantlabs.com/products): Hospitality, retail, healthcare, manufacturing, security, and public spaces
